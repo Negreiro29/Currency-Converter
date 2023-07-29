@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vinicius-Negreiro">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!--<div class="container">
+        <h1>COVERSOR DE MOEDAS</h1>
+        <div class="box-geral">
+            <div class="box-moeda">
+                <label for="valor-real">Valor em Real(BR): </label>
+                <input type="number" name="valor-real" id="valor-real" placeholder="Insira o valor em Reais">
+                <label>Real</label>
+            </div>
+            
+            <div class="box-moeda">
+                <label for="valor-convertido">Valor Convertido: </label>
+                <input type="text" name="valor-convertido" id="valor-convertido" disabled="disable">
+                <select name="moeda" id="moeda">
+                    <option value="dolar">Dolar</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                </select>
+            </div>
+
+            <input type="submit" id="submit" value="Converter">
+        </div>
+    </div>-->
+    
+    <div class="container">
+        <h1>COVERSOR DE MOEDAS</h1>
+        <div class="box-geral">
+            <div class="box-moeda">
+                <label for="valor-inserido">Valor à converter: </label>
+                <input type="number" name="valor-inserido" id="valor-inserido" placeholder="Insira o valor">
+                <select name="moeda1" id="moeda1">
+                    <option value="real">Real</option>
+                    <option value="dolar" selected>Dolar</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                </select>
+            </div>
+            
+            <div class="box-moeda">
+                <label for="valor-convertido">Valor Convertido: </label>
+                <input type="text" name="valor-convertido" id="valor-convertido" disabled="disable">
+                <select name="moeda2" id="moeda2">
+                    <option value="real" selected>Real</option>
+                    <option value="dolar">Dolar</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                </select>
+            </div>
+
+            <input type="submit" id="submit" value="Converter">
+        </div>
+    </div>
+
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
